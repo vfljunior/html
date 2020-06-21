@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    height: 50px;
+    background: #122028;
+    position: relative;
+    
+}
+.logotipo{
+    margin: 8px 0 0 135px;
+}
+
+.header-nav{
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.header-nav a{
+    transition: color .3s linear;
+}
+.header-nav a:hover{
+    color: white;
+
+    }
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: nome;
+    display: inline-block;
+    margin: 15px;
+    
+    
+}
+.header-nav li a{
+       color: #425564;
+       text-decoration: none;
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 12px;
+}
+
+
+.portifolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    margin-top: 20px;
+    color: #555;
+    padding:0px 100px 50px 100px;
+    overflow: auto;
+    text-transform: uppercase;
+   
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.abaout{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.abaout h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+
+}
+.abaout p{
+    line-height: 1.5;
+    width: 70%;
+    
+}
+.abaout h1{
+    text-align: center;
+}
+#contact{
+   margin: 50px 0 ;
+}
+#contact address{
+    color:#143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+}
+.maps iframe{
+    width: 100%;
+}
+
+.pe{
+    margin-top: 10px;
+    padding: 25px;
+    background: #0b171f;
+    color: #6f8597;
+    text-align: center;
+}
+
+/*----------------/
+/-----gallery2-----/
+/-------------------*/
+
+.gallery2{
+    
+    color: #555;
+    padding:0px 50px 50px 100px;
+    overflow: auto;
+    text-transform: uppercase;
+   
+}
+
+.gallery-card2{
+    width: 30%;
+    float: left;
+    text-align:center ;
+}
+
+.gallery-title2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
